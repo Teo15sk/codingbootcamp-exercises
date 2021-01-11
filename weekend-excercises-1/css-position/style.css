@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 2em;
+}
+
+.cookie {
+    width: 100%;
+
+    background-color: rgba(black, 0.8);
+
+    color: white;
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    padding: 2em;
+}
+
+.cookie p {
+    display: inline-block;
+
+    width: 75%;
+}
+
+.cookie div {
+    display: inline-block;
+    width: 15%;
+}
+
+.cookie a {
+    background-color: orange;
+
+    color: white;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    padding: 0.75em 1.5em;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 5%;
+}
+.blog--section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.blog__img {
+    width: 49%;
+    border-radius: 2%;
+}
+
+.blog__text {
+    display: flex;
+    width: 49%;
+    flex-direction: column;
+}
+
+.blog__timestamp {
+    justify-self: flex-end;
+}
